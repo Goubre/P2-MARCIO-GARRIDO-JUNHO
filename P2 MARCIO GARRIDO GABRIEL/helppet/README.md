@@ -117,6 +117,22 @@ Executar container:
 ```bash
 docker run -p 8000:8000 helppet
 ```
+## Microsserviços
+
+A solução foi dividida em dois serviços:
+
+- animal-service: responsável pelo cadastro, listagem e atualização do status dos animais.
+- notification-service: responsável pela simulação de notificações do sistema.
+
+## Deploy
+
+A aplicação está publicada no Render:
+
+https://p2-marcio-garrido-junho.onrender.com/docs
+
+## Repositório
+
+https://github.com/Goubre/P2-MARCIO-GARRIDO-JUNHO
 
 ## Autor
 
