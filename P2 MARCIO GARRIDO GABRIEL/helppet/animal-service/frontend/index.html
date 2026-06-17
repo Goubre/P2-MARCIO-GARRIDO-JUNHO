@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpPet</title>
+
+  <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🐾 HelpPet</h1>
+    <p>Encontre e registre animais perdidos</p>
+  </header>
+
+  <main>
+
+    <section class="cadastro">
+      <h2>Cadastrar Animal</h2>
+
+      <input
+        type="text"
+        id="nome"
+        placeholder="Nome do animal"
+      >
+
+      <input
+        type="text"
+        id="cidade"
+        placeholder="Cidade"
+      >
+
+      <button id="btnCadastrar">
+        Cadastrar
+      </button>
+    </section>
+
+    <section class="lista">
+      <h2>Animais Cadastrados</h2>
+
+      <div id="animaisContainer">
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="/frontend/script.js"></script>
+
+</body>
+</html>
